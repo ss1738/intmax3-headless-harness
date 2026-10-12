@@ -1,0 +1,15 @@
+{
+  "name": "intmax3-headless-harness",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Deterministic, protocol-agnostic channel scenario harness for INTMAX3 integration research.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "demo": "node examples/refused-proposal.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
