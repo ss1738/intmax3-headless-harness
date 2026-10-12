@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "node --test",
-    "demo": "node examples/refused-proposal.js"
+    "demo": "node examples/refused-proposal.js",
+    "scenario": "node bin/intmax3-harness.js examples/refused-proposal.json"
   },
   "engines": {
     "node": ">=20"

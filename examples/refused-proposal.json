@@ -1,0 +1,13 @@
+{
+  "members": ["alice", "bob", "carol"],
+  "balances": {
+    "alice": 100,
+    "bob": 40,
+    "carol": 0
+  },
+  "proposals": [
+    { "from": "alice", "to": "bob", "amount": 25, "decision": "refuse" },
+    { "from": "alice", "to": "carol", "amount": 10 },
+    { "from": "carol", "to": "bob", "amount": 100 }
+  ]
+}
